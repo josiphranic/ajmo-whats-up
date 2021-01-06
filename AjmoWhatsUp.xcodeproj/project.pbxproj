@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A3CCDCA25A367E400566556 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3CCDC925A367E400566556 /* EventCell.swift */; };
+		3A3CCDCF25A36A2300566556 /* EventCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3CCDCE25A36A2300566556 /* EventCellView.swift */; };
+		3A3CCDD425A36A9300566556 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3CCDD325A36A9300566556 /* Event.swift */; };
+		3A3CCDD725A37DC400566556 /* EventDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3CCDD625A37DC400566556 /* EventDataHandler.swift */; };
+		3A3CCDDB25A382A800566556 /* Array+ItemAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3CCDDA25A382A800566556 /* Array+ItemAt.swift */; };
+		3A3CCDE925A4C8BB00566556 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3CCDE825A4C8BB00566556 /* EventViewController.swift */; };
+		3AE463D625A35D5D00797394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE463D525A35D5D00797394 /* AppDelegate.swift */; };
+		3AE463D825A35D5D00797394 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE463D725A35D5D00797394 /* SceneDelegate.swift */; };
+		3AE463DA25A35D5D00797394 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE463D925A35D5D00797394 /* MainViewController.swift */; };
+		3AE463DF25A35D5E00797394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE463DE25A35D5E00797394 /* Assets.xcassets */; };
+		3AE463E225A35D5E00797394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE463E025A35D5E00797394 /* LaunchScreen.storyboard */; };
+		7BE8E283210C57FFEF8C4568 /* Pods_AjmoWhatsUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8726BEBA0E175BEE35DBFA33 /* Pods_AjmoWhatsUp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		306AE2219F2A6009C97B5D71 /* Pods-AjmoWhatsUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjmoWhatsUp.debug.xcconfig"; path = "Target Support Files/Pods-AjmoWhatsUp/Pods-AjmoWhatsUp.debug.xcconfig"; sourceTree = "<group>"; };
+		3A3CCDC925A367E400566556 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		3A3CCDCE25A36A2300566556 /* EventCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCellView.swift; sourceTree = "<group>"; };
+		3A3CCDD325A36A9300566556 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		3A3CCDD625A37DC400566556 /* EventDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDataHandler.swift; sourceTree = "<group>"; };
+		3A3CCDDA25A382A800566556 /* Array+ItemAt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+ItemAt.swift"; sourceTree = "<group>"; };
+		3A3CCDE825A4C8BB00566556 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		3AE463D225A35D5D00797394 /* AjmoWhatsUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AjmoWhatsUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE463D525A35D5D00797394 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AE463D725A35D5D00797394 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3AE463D925A35D5D00797394 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3AE463DE25A35D5E00797394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AE463E125A35D5E00797394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AE463E325A35D5E00797394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8726BEBA0E175BEE35DBFA33 /* Pods_AjmoWhatsUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AjmoWhatsUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20D773C2530E80A0457B56A /* Pods-AjmoWhatsUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjmoWhatsUp.release.xcconfig"; path = "Target Support Files/Pods-AjmoWhatsUp/Pods-AjmoWhatsUp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AE463CF25A35D5D00797394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE8E283210C57FFEF8C4568 /* Pods_AjmoWhatsUp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A3CCDC825A366C900566556 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3A3CCDCD25A36A0900566556 /* Views */,
+				3A3CCDC925A367E400566556 /* EventCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3A3CCDCD25A36A0900566556 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A3CCDCE25A36A2300566556 /* EventCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A3CCDD225A36A8400566556 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A3CCDD325A36A9300566556 /* Event.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A3CCDD925A3829600566556 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3A3CCDDA25A382A800566556 /* Array+ItemAt.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3AE463C925A35D5D00797394 = {
+			isa = PBXGroup;
+			children = (
+				3AE463D425A35D5D00797394 /* AjmoWhatsUp */,
+				3AE463D325A35D5D00797394 /* Products */,
+				504632E76CFFE58F8911388F /* Pods */,
+				7E8DFB2B21B57453A907BB2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AE463D325A35D5D00797394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AE463D225A35D5D00797394 /* AjmoWhatsUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AE463D425A35D5D00797394 /* AjmoWhatsUp */ = {
+			isa = PBXGroup;
+			children = (
+				3A3CCDD925A3829600566556 /* Utils */,
+				3A3CCDD225A36A8400566556 /* Models */,
+				3A3CCDC825A366C900566556 /* Cells */,
+				3AE463D525A35D5D00797394 /* AppDelegate.swift */,
+				3AE463D725A35D5D00797394 /* SceneDelegate.swift */,
+				3AE463D925A35D5D00797394 /* MainViewController.swift */,
+				3A3CCDE825A4C8BB00566556 /* EventViewController.swift */,
+				3AE463DE25A35D5E00797394 /* Assets.xcassets */,
+				3AE463E025A35D5E00797394 /* LaunchScreen.storyboard */,
+				3AE463E325A35D5E00797394 /* Info.plist */,
+				3A3CCDD625A37DC400566556 /* EventDataHandler.swift */,
+			);
+			path = AjmoWhatsUp;
+			sourceTree = "<group>";
+		};
+		504632E76CFFE58F8911388F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				306AE2219F2A6009C97B5D71 /* Pods-AjmoWhatsUp.debug.xcconfig */,
+				A20D773C2530E80A0457B56A /* Pods-AjmoWhatsUp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E8DFB2B21B57453A907BB2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8726BEBA0E175BEE35DBFA33 /* Pods_AjmoWhatsUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AE463D125A35D5D00797394 /* AjmoWhatsUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE463E625A35D5E00797394 /* Build configuration list for PBXNativeTarget "AjmoWhatsUp" */;
+			buildPhases = (
+				81721DCD5512DBAA1227FD76 /* [CP] Check Pods Manifest.lock */,
+				3AE463CE25A35D5D00797394 /* Sources */,
+				3AE463CF25A35D5D00797394 /* Frameworks */,
+				3AE463D025A35D5D00797394 /* Resources */,
+				A0DE09046B6866A64057940E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AjmoWhatsUp;
+			productName = AjmoWhatsUp;
+			productReference = 3AE463D225A35D5D00797394 /* AjmoWhatsUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AE463CA25A35D5D00797394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3AE463D125A35D5D00797394 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3AE463CD25A35D5D00797394 /* Build configuration list for PBXProject "AjmoWhatsUp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AE463C925A35D5D00797394;
+			productRefGroup = 3AE463D325A35D5D00797394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AE463D125A35D5D00797394 /* AjmoWhatsUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AE463D025A35D5D00797394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE463E225A35D5E00797394 /* LaunchScreen.storyboard in Resources */,
+				3AE463DF25A35D5E00797394 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81721DCD5512DBAA1227FD76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AjmoWhatsUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0DE09046B6866A64057940E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AjmoWhatsUp/Pods-AjmoWhatsUp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AjmoWhatsUp/Pods-AjmoWhatsUp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AjmoWhatsUp/Pods-AjmoWhatsUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AE463CE25A35D5D00797394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3CCDCA25A367E400566556 /* EventCell.swift in Sources */,
+				3A3CCDD725A37DC400566556 /* EventDataHandler.swift in Sources */,
+				3AE463DA25A35D5D00797394 /* MainViewController.swift in Sources */,
+				3A3CCDDB25A382A800566556 /* Array+ItemAt.swift in Sources */,
+				3A3CCDCF25A36A2300566556 /* EventCellView.swift in Sources */,
+				3A3CCDE925A4C8BB00566556 /* EventViewController.swift in Sources */,
+				3AE463D625A35D5D00797394 /* AppDelegate.swift in Sources */,
+				3A3CCDD425A36A9300566556 /* Event.swift in Sources */,
+				3AE463D825A35D5D00797394 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3AE463E025A35D5E00797394 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE463E125A35D5E00797394 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AE463E425A35D5E00797394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AE463E525A35D5E00797394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AE463E725A35D5E00797394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 306AE2219F2A6009C97B5D71 /* Pods-AjmoWhatsUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4733S5KG6;
+				INFOPLIST_FILE = AjmoWhatsUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josip.AjmoWhatsUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AE463E825A35D5E00797394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20D773C2530E80A0457B56A /* Pods-AjmoWhatsUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4733S5KG6;
+				INFOPLIST_FILE = AjmoWhatsUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josip.AjmoWhatsUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AE463CD25A35D5D00797394 /* Build configuration list for PBXProject "AjmoWhatsUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE463E425A35D5E00797394 /* Debug */,
+				3AE463E525A35D5E00797394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE463E625A35D5E00797394 /* Build configuration list for PBXNativeTarget "AjmoWhatsUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE463E725A35D5E00797394 /* Debug */,
+				3AE463E825A35D5E00797394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AE463CA25A35D5D00797394 /* Project object */;
+}
